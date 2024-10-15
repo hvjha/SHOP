@@ -1,4 +1,5 @@
-const backendDomain = "http://localhost:5500"
+// const backendDomain = "http://localhost:5500"
+const backendDomain = "https://shop-eight-orpin.vercel.app/"
 
 const SummaryApi = {
     signup:{
