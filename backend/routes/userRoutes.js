@@ -1,5 +1,5 @@
 import express from 'express'
-import { userSignUpController } from '../controllers/user/userSignup.js';
+import { userSignUpController } from '../controllers/user/userSignUp.js';
 import { userSignInController } from '../controllers/user/userSignIn.js';
 import { userDetailsController } from '../controllers/user/userDetails.js';
 import authToken from './../middleware/authToken.js';
