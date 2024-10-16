@@ -24,7 +24,7 @@ app.use("/api/v1/user",userRouter);
 app.use("/api/v1/product",productRoute)
 app.use("/api/v1/cart",cartRoute)
 app.use("/api/v1/payment",orderRoutes)
-const PORT = process.env.PORT || 5500 
+const PORT =  5500 || process.env.PORT
 app.listen(PORT,()=>{
     connectDB();
     console.log(`server is listen at ${PORT}`)
