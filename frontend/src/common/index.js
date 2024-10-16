@@ -1,4 +1,5 @@
-const backendDomain = "http://localhost:5500"
+// const backendDomain = "http://localhost:5500"
+const backendDomain = "https://shop-7h6x.onrender.com"
 
 
 const SummaryApi = {
